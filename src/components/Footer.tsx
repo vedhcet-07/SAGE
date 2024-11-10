@@ -28,7 +28,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/about/team"
+                  href="/src/pages/about/team"
                   className="hover:text-[#FB6B31] transition-colors"
                 >
                   Our Team
