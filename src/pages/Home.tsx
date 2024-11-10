@@ -83,7 +83,7 @@ const Home = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-[#FB6B31] hover:bg-[#35A9EF] text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors flex items-center gap-2"
-            onClick={() => (window.location.href = '/courses')}
+            onClick={() => (window.location.href = '/services/courses')}
           >
             Explore Our Courses
             <ArrowRight />
