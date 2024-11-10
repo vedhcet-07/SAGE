@@ -48,7 +48,27 @@ function App() {
           </Routes>
         </main>
         <Chatbot />
-        <Footer />
+        <Footer >
+           <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/about/team" element={<Team />} />
+            <Route path="/about/mission" element={<Mission />} />
+            <Route path="/about/vision" element={<Vision />} />
+            <Route path="/about/goals" element={<Goals />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/services/courses" element={<Courses />} />
+            <Route path="/services/tutorials" element={<Tutorials />} />
+            <Route path="/services/workshops" element={<Workshops />} />
+            <Route path="/services/training" element={<Training />} />
+            <Route path="/services/consulting" element={<Consulting />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/news/events" element={<Events />} />
+            <Route path="/news/newsletter" element={<Newsletter />} />
+            <Route path="/news/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          </Footer>
       </div>
     </Router>
   );
